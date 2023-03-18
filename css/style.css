@@ -158,7 +158,7 @@ p {
   color: white;
 }
 
-#showcase .showcase-content {
+.showcase-content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -169,13 +169,14 @@ p {
   padding: 0 2rem;
   /* Overlay */
   position: absolute;
-  top: 60px !important;
+  top: 60px;
   left: 0;
   right: 0;
   bottom: 0;
   background-color: black;
   opacity: 0.8;
 }
+
 
 /* Section:What we do */
 #what .items {
@@ -277,23 +278,25 @@ p {
     padding: 00.5rem;
     margin-left: 40px;
   }
-}
-
-#showcase .showcase-content {
-  top: 100px !important;
-
-}
-
-#who {
-  display: block;
-}
-
-.items{
-  display: flex;
-  flex-direction: row;
-}
-
-#clients .items img {
-  width: 60px;
-  margin: auto;
+  
+  #showcase .showcase-content {
+    top: 100px ;
+  
+  }
+  
+  #who {
+    display: block;
+  }
+  
+  #what .items{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #clients .items img {
+    display: flex;
+    flex-direction: row;
+    width: 60px;
+    margin: auto;
+  }
 }
