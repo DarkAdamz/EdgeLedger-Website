@@ -30,11 +30,13 @@
   }
   #navbar ul {
     padding: 00.5rem;
+    margin-left: 40px;
   }
 }
 
 #showcase .showcase-content {
-  top: 60px;
+  top: 103px;
+
 }
 
 #who {
@@ -43,4 +45,5 @@
 
 #clients .items img {
   width: 50px;
+  margin-right: 40px;
 }

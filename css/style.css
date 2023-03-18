@@ -239,3 +239,11 @@ p {
   width: 100%;
   padding: 00.5rem;
 }
+
+@media (width:768px) {
+
+  .showcase-content{
+    top:60px !important;
+  }
+  
+}

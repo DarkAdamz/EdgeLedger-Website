@@ -10,3 +10,10 @@
   align-self: center;
   margin-bottom: 0;
 }
+
+body{
+  width: 1000px;
+}
+
+.showcase-content{
+  width: 1000px;}
