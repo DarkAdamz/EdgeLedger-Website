@@ -280,7 +280,8 @@ p {
   }
   
   #showcase .showcase-content {
-    top: 111px ;
+    top: 0 ;
+    height: 113%;
   
   }
   
